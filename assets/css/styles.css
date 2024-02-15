@@ -7,13 +7,17 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+.logo {
+  position: relative;
+}
 .logo i {
   margin-top: 20px;
   margin-left: 100px;
   font-size: 32px;
+  margin-right: 12px;
 }
-.logo span{
-    margin-left: 8px;
-    display: inline-block;
-    vertical-align: middle;
+.logo span {
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
 }
