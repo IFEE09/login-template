@@ -12,12 +12,33 @@ body {
 }
 .logo i {
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 50px;
   font-size: 32px;
   margin-right: 12px;
 }
 .logo span {
+  font-weight: bolder;
   position: absolute;
   top: 65%;
   transform: translateY(-50%);
+}
+main {
+  margin-top: 200px;
+}
+.principal-text {
+  font-weight: bolder;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.centrar-vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.token-oauth {
+  margin: 8px;
+  border: 1px solid black;
+  padding: 10px;
+  display: inline-block;
+  align-items: center;
 }
