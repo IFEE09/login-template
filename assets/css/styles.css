@@ -1,0 +1,19 @@
+/* Dar el efecto de Fade cuando cargan todos los elementos de la pagina */
+* {
+  transition: 0.3s;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.logo i {
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 32px;
+}
+.logo span{
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
