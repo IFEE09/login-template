@@ -51,3 +51,9 @@ main {
 .fa-facebook {
     color: #3764c0;
 }
+.usuario {
+  margin-top: 12px;
+  border-radius: 4px;
+  border: solid 1px gray;
+  height: 24px;
+}
